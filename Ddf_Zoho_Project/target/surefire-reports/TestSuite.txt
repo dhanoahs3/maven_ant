@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 37.288 s <<< FAILURE! - in TestSuite
+createLeadTest(com.qtpselenium.zoho.project.testcases.LeadTest)  Time elapsed: 10.828 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.zoho.com/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.zoho.com.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TKK5GPG', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3512, moz:profile: C:\Users\harsimran\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 552e5a23-b1ab-43d8-97c0-2624bf5c9665
+	at com.qtpselenium.zoho.project.testcases.LeadTest.createLeadTest(LeadTest.java:35)
+
+createLeadTest(com.qtpselenium.zoho.project.testcases.LeadTest)  Time elapsed: 1.662 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 984 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TKK5GPG', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: ChromeDriver
+	at com.qtpselenium.zoho.project.testcases.LeadTest.createLeadTest(LeadTest.java:34)
+
+convertLeadTest(com.qtpselenium.zoho.project.testcases.LeadTest)  Time elapsed: 9.537 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=dnsNotFound&u=https%3A//www.zoho.com/&c=UTF-8&f=regular&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20www.zoho.com.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TKK5GPG', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14832, moz:profile: C:\Users\harsimran\AppData\..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0eff7c11-7ac8-4886-b9dd-2806e895743e
+	at com.qtpselenium.zoho.project.testcases.LeadTest.convertLeadTest(LeadTest.java:99)
+
+convertLeadTest(com.qtpselenium.zoho.project.testcases.LeadTest)  Time elapsed: 1.872 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.24 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TKK5GPG', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: ChromeDriver
+	at com.qtpselenium.zoho.project.testcases.LeadTest.convertLeadTest(LeadTest.java:98)
+
+convertLeadTest(com.qtpselenium.zoho.project.testcases.LeadTest)  Time elapsed: 1.654 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.04 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TKK5GPG', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: ChromeDriver
+	at com.qtpselenium.zoho.project.testcases.LeadTest.convertLeadTest(LeadTest.java:98)
+
+convertLeadTest(com.qtpselenium.zoho.project.testcases.LeadTest)  Time elapsed: 1.755 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: Chrome version must be between 70 and 73
+  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.16 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TKK5GPG', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: driver.version: ChromeDriver
+	at com.qtpselenium.zoho.project.testcases.LeadTest.convertLeadTest(LeadTest.java:98)
+
